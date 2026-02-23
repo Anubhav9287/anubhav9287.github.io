@@ -1,918 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Anubhav Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anubhav Sharma | Software Engineer (Automation Expert)</title>
+  <meta name="description" content="Software Engineer (Automation Expert) at LPL Financial with 8+ years building event-driven, cloud-native backend systems and automation on AWS. Python, Java, TypeScript.">
+  <meta name="keywords" content="Anubhav Sharma, Test Automation, Software Engineer, Python, Java, Backend, LPL Financial, Dallas">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="assets/css/portfolio.css" rel="stylesheet">
 </head>
-
 <body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/front.jpeg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Anubhav Sharma</a></h1>
-        <div class="social-links mt-3 text-light">
-          <a href="https://github.com/Anubhav9287" target="_blank" class="bxl-github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/anubhavsharma26/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div>
-      </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#project" class="nav-link scrollto"><i class="bx bx-book-content"></i>
-              <span>Projects</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Certification and
-                Awards</span></a></li>
-          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Interest</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">AS</a>
+      <button class="nav-toggle" aria-label="Menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#beyond">Beyond Code</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/Anubhav_Sharma_Resume.pdf" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Resume</a></li>
+      </ul>
     </div>
-  </header><!-- End Header -->
+  </nav>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="assets/img/front.jpeg" alt="Anubhav Sharma" class="hero-avatar">
       <h1>Anubhav Sharma</h1>
-      <p>#Maverick</p>
-      <p>I'm <span class="typed" data-typed-items="Full Stack Developer and Automation Specialist"></span></p>
+      <p class="hero-tagline">Software Engineer (Automation Expert) · Backend & APIs · 8+ Years</p>
+      <p class="hero-summary">Software Engineer (Automation Expert) at LPL Financial, building automation platforms, backend services, and data validation for Fee Billing and portfolio systems. Deep experience with event-driven architectures, microservices, and API automation across Python, Java, and .NET on AWS. Open to backend, platform, and API engineering roles.</p>
+      <div class="hero-cta">
+        <a href="assets/Anubhav_Sharma_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download Resume</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.linkedin.com/in/anubhavsharma26/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://github.com/Anubhav9287" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </header>
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+  <main>
+    <!-- Experience -->
+    <section id="experience" class="section">
       <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <p>
-            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-            "The function of good software is to make the complex appear to be simple." - Grady Booch
-            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-          </p> 
-          <br>
-          <p>Passionate software engineer with 8+ years of experience, currently thriving in the dynamic finance domain. I started my journey as an Associate Software Engineer, driven by a constant thirst for knowledge and a love for automation's B2C impact.</p>
-          <br>
-          <p>Equipped with a Master's in Intelligent Systems and Databases, I possess full-stack development expertise and a proven track record of delivering client-centric solutions across diverse technologies. My career has spanned various industrial domains, including communication media, digital technology, and product, equipping me with a versatile skillset.
-            </p>
-            <br>
-            <p>For the past year, I've been immersed in the world of finance, actively expanding my knowledge and developing a passion for coding-driven problem-solving within this exciting sector. I'm eager to leverage my skills and experience to make a meaningful contribution to innovative projects and collaborate with teams that share my enthusiasm for creating impactful solutions.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/front.jpeg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Software Developer &amp; Automation Specialist.</h3>
-            <!-- <p class="fst-italic"> 
-            </p> -->
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MS in Computer Science</span>
-                  </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Specilization:</strong> <span>Intelligent System and DB</span></li>
-
-                </ul>
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Senior Software Engineer</h3>
+                <span class="timeline-date">May 2023 – Present</span>
               </div>
-              <div class="col-lg-6">
-                <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Dallas, USA</span></li>
-
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>asharma.careers@gmail.com</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- <p>
-              Testing...
-            </p> -->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Facts</h2>
-          <p>I am a Technophile. 
-            Each problem is unique that require unique solution. My expertise is in problem solving.  
-            <br>I am not attached to a technology, 
-            Look at the problem and think how to devise the solution then use necessary tools to solve the problem.
-            <br>
-            I love coding and problem solving. I look for day to day problem and try to solve them
-            with my skills.</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>LINES OF CODE</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Automation Soutions provided to Clients</strong></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-briefcase"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>UG Database Lecturer</strong> </p>
-            </div>
-          </div>
-          <!-- <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-geo-alt"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div> -->
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section -->
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Skills</h2>
-        </div>
-        <div class="row skills-content">
-          <div class="col-lg-6" data-aos="fade-up">
-            <div class="section-title2">
-              <h4>Languages</h4>
-            </div>
-            <div class="progress">
-              <span class="skill">Python<i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">JAVA <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="section-title2">
-              <h4>Cloud Computing</h4>
-            </div>
-            <div class="progress">
-              <span class="skill">Azure<i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">AWS<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Google Cloud Platform <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="section-title2">
-              <h4>Database and Backend</h4>
-            </div>
-            <div class="progress">
-              <span class="skill">Mongo DB<i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">REDIS<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">NO SQL<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">SQL Server <i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">NODE JS<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="section-title2">
-              <h4>Libaries and Frameworks</h4>
-            </div>
-            <div class="progress">
-              <span class="skill">Tensor Flow<i class="val">60%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Keras<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Vue JS<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Selenium<i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Apache Spark<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="section-title2">
-              <h4>Tools and Others</h4>
-            </div>
-            <div class="progress">
-              <span class="skill">GIT<i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">Jenkins<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">JIRA<i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="progress">
-              <span class="skill">TOSCA<i class="val">70%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Resume <a class="btn btn-outline-primary btn-sm" href="assets/Anubhav_resume.pdf" target="_blank" role="button">pdf</a> </h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Anubhav Sharma</h4>
-              <p><em>Accomplished, knowledgeable computer science professional with 6 years of experience in Full Stack
-                  and Software Automation. Now looking for challenging roles in implement my new learnings.</em></p>
-              <ul>
-                <li>Dallas, TX</li>
-                <li>asharma.careers@gmail.com</li>
+              <p class="timeline-company">Altimetrik · LPL Financial · Dallas, TX</p>
+              <ul class="timeline-list">
+                <li>Test automation & backend validation for Fee Billing, API Modernization, and Portfolio Management in Agile/DevOps environment</li>
+                <li>Design and implement automation for web services, APIs, middleware, and UI; integrate into CI/CD (Bamboo, Bitbucket)</li>
+                <li>Python-based API automation & data validation for PostgreSQL, DynamoDB, Redis, Kafka; validation of PSOR (event-driven microservices)</li>
+                <li>Supported onboarding of 1.3M+ Prudential and 20K+ Atria clients; migration validation TIBCO → .NET Core / Java</li>
+                <li>Collaborate with Product, Scrum, and developers on test automation and quality; JIRA, continuous testing pipelines</li>
               </ul>
             </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Science in Computer Science</h4>
-              <h5>2020 - 2022</h5>
-              <p><em>University of Texas at Arlington</em></p>
-              <p>Specilization in Intelligent System and Database.</p>
-              <p><b>GPA:</b> 3.9</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Technology in Computer Science and Engineering</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Uttar Pradesh Technical University, India</em></p>
-              <!-- <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
-                unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart
-                dila</p> -->
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior Software Engineer in Automation</h4>
-              <h5>2023 - Present</h5>
-              <p><em>LPL Financial (Altimetrik), US</em></p>
-              <ul>
-                <li>Designed and executed comprehensive automation for the newly implemented <b>Advisor Base Pricing system </b> at LPL Financial, a critical component of their fee billing process.</li>
-                <li>Designed and testing Automation in SQL Blackbird framework and achieved 100% coverage identifying and resolving 10 critical defects before production rollout.</li>
-                <li>Demonstrated ability to write complex queries for data validation using SQL.</li>
-                <li>Coached fellow team members on best practices and actively contributed to continuous improvement initiatives.</li>
-                <li>Demonstrated programming/development experience in languages such as Java, Python, coupled with expertise in automation frameworks like Selenium, and TestNG.</li>
-                <li>Possessed strong problem-solving skills, resourcefulness, and determination in a fast-paced Agile environment.</li>
-                <li>Moved APIs from TIBCO to AWS, making them more modern and efficient.</li>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Automation Test Lead / Senior Engineering Analyst</h3>
+                <span class="timeline-date">Nov 2014 – Jan 2021</span>
+              </div>
+              <p class="timeline-company">Accenture</p>
+              <ul class="timeline-list">
+                <li>Led SDETs; designed test automation frameworks, scripts, and CI/CD integration</li>
+                <li>Python (Django/Flask), Java, Selenium; REST APIs and internal tools for automation and analytics</li>
+                <li>Web apps with ReactJS, VueJS, Django, Apache Spark; collaborated with dev and QA on coverage and best practices</li>
+                <li>SME for test automation; Agile ceremonies, code reviews, and testability</li>
               </ul>
             </div>
-            <div class="resume-item">
-              <h4>Database System Teaching Assistant (part-time)</h4>
-              <h5>2021 - 2022</h5>
-              <p><em>University of Texas, Arlington, US</em></p>
-              <ul>
-                <li>Delivered lectures for class on SQL.</li>
-                <li>Helped in grading assignments, exams, and other assessments.</li>
-                <li>Provided 1-on-1 coaching to students who are struggling with course material.</li>
-                <li>Assisted in course planning, designing syllabus for class.</li>
-                <li>Provided office hours for students to come for extra help or support.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Automation Specialist</h4>
-              <h5>2019 - 2020</h5>
-              <p><em>Accenture, India</em></p>
-              <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production
-                  communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
-                  project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the
-                  design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Senior Engineering Analyst</h4>
-              <h5>2017 - 2019</h5>
-              <p><em>Accenture, India</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                  advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Software Engineering Analyst</h4>
-              <h5>2015 - 2017</h5>
-              <p><em>Accenture, India</em></p>
-              <!-- <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                  advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul> -->
-            </div>
-            <div class="resume-item">
-              <h4>Associate Software Engieer</h4>
-              <h5>2014 - 2015</h5>
-              <p><em>Accenture, India</em></p>
-              <!-- <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                  advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul> -->
-            </div>
-          </div>
+          </article>
         </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= project Section ======= -->
-    <section id="project" class="project section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>Below are the projects:</p>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="project-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Personal</li>
-              <li data-filter=".filter-card">Academic</li>
-              <li data-filter=".filter-web">Full Stack</li>
-              <li data-filter=".filter-ml">Machine Learning</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row project-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4 col-md-6 project-item filter-app filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/weatherapp.png" style="width:500px;height:200px;" class="img-fluid"
-                alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/react-weather-app" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Weather App (React JS)</p>
-          </div>
-          <div class="col-lg-4 col-md-6 project-item filter-app filter-ml filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/ml.gif" style="width:500px;height:200px;" class="img-fluid"
-                alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/SharkTankIndiaClassifer" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Shark Tank India Classifer (ML)</p>
-          </div>
-          <div class="col-lg-4 col-md-6 project-item filter-app filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/aptesting.png" style="width:500px;height:200px;" class="img-fluid"
-                alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/APITestingFramework" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>API testing (Application Programming Interface Testing) Custom Framework</p>
-          </div>
-          <div class="col-lg-4 col-md-6 project-item filter-app filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/live_server_project1.png" style="width:500px;height:200px;" class="img-fluid"
-                alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/Server-Live-Status" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Live Server Status Project</p>
-          </div>
-          <div class="col-lg-4 col-md-6 project-item filter-card filter-ml">
-            <div class="project-wrap">
-              <img src="assets/img/project/neural_n.jpg" style="width:500px;height:200px;" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/academic-projects/tree/main/NeuralNetwork" target="_blank"
-                  title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Single Layer, Multilayer and CNN model Project</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-item filter-card filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/housing_portal.png" style="width:500px;height:200px;" class="img-fluid"
-                alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/academic-projects/tree/main/Web-Data-Management" target="_blank"
-                  title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Smart Housing Portal with Live Chat</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-item filter-card filter-web">
-            <div class="project-wrap">
-              <img src="assets/img/project/DAA.png" style="width:500px;height:200px;" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/academic-projects/tree/main/Design%20and%20Analysis%20of%20Algorithms"
-                  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Sorting Algorithms Visual Comparision </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-item filter-card">
-            <div class="project-wrap">
-              <img src="assets/img/project/mongodb.png" style="width:500px;height:200px;" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/academic-projects/tree/main/DBMS-MODELS-AND-IMPLEMENTATION"
-                  target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Cloud MongoDB implementation using Python</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-item filter-app">
-            <div class="project-wrap">
-              <img src="assets/img/project/csv_merger.png" style="width:500px;height:200px;" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/VBScript_CSV_Merger" target="_blank" title="More Details"><i
-                    class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Merge all .csv files as sheet into one using VBS</p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 project-item filter-card">
-            <div class="project-wrap">
-              <img src="assets/img/project/android.png" style="width:500px;height:200px;" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="https://github.com/Anubhav9287/Andorid_App_Crud_Operations" target="_blank" title="More Details"><i
-                  class="bx bx-link"></i></a>
-              </div>
-            </div>
-            <p>Car Rental Android App: CRUD Operations </p>
-          </div>
-
-          <!-- <div class="col-lg-4 col-md-6 project-item filter-card">
-            <div class="project-wrap">
-              <img src="assets/img/project/project-8.jpg" class="img-fluid" alt="">
-              <div class="project-links">
-                <a href="assets/img/project/project-8.jpg" data-gallery="projectGallery"
-                  class="project-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="project-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>-->
-
-        </div>
-      </div>
-    </section><!-- End project Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Certification and Awards</h2>
-          <p></p>
-        </div>
-        <div class="row">
-          <div>
-            <h4 class="resume-title"><b>Certification: </b></h4>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Google Cloud Fundamentals: Core Infrastructure</a></h4>
-            <p class="description"> By Google</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Microsoft AZ-900 (Azure fundamental)</a></h4>
-            <p class="description"> By Microsoft</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Programming for Everybody (Python)</a></h4>
-            <p class="description">By University of Michigan</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Automation Engineer Level 1</a></h4>
-            <p class="description">By Tricentis</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Automation Specialist Level 1</a></h4>
-            <p class="description">By Tricentis</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Automation Specialist Level 2</a></h4>
-            <p class="description">By Tricentis</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Google IT Automation with python Specilization</a></h4>
-            <p class="description">By Google</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a>Automation Prime Certification</a></h4>
-            <p class="description">By Accenture</p>
-          </div>
-          
-          <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-              voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-              soluta nobis est eligendi</p>
-          </div> -->
-          <h4 class="resume-title">Awards and Honors</h4>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Tech Star Award</a></h4>
-            <p class="description">By Accenture: 2019</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">APEX Award</a></h4>
-            <p class="description">By Accenture: 2016, 2017, 2018</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Interest</h2>
-          <p>I am not a regular reader but I try to read as much as I can. It help me to improve my focus and to be a better critical thinker.
-            Below are some books I read and what stayed with me.
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              In Progress ..... 
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <img src="assets/img/testimonials/shouldIFail.png" class="testimonial-img" alt="">
-            <h3>Should I Fail</h3>
-            <h4>by Scott Shepherd</h4>
-          </div>
-        </div>
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Have courage to think differently, courage to invent, to travel the unexplored path, 
-                  courage to discover the impossible and to conquer the problems and succeed
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/kalam.jpg" class="testimonial-img" alt="">
-                <h3>Wings of Fire: An Autobiography</h3>
-                <h4>by Dr. Abdul Kalam and Arun Tiwari</h4>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  1. Focus on the impact of your dreams, not the odds.
-                  2. Talent can't compensate for a lousy personality.
-                  3. Finding the right questions is most of the battle. 
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/elonmusk.jpg" class="testimonial-img" alt="">
-                <h3>Elon Musk: How The Billionaire CEO of Tesla and SpaceX is Shaping Our Future</h3>
-                <h4>by Ashley Vance</h4>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  A man becomes a Mahadev, only when he fights for good. A Mahadev is not born from his mother's womb. He is forged in the heat of battle, when he wages a war to destroy evil. Har Har Mahadev - All of us are Mahadev. 
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/immortal.jpg" class="testimonial-img" alt="">
-                <h3>The Immortals Of Meluha</h3>
-                <h4>by Amish Tripathi</h4>
-              </div>
-            </div>
-            
-<!-- 
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div> -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
+        <p class="education">
+          <strong>MS Intelligent Systems</strong> · University of Texas at Arlington · GPA 3.9
+        </p>
       </div>
     </section>
-    <!-- End Testimonials Section -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p></p>
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <!-- Project Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="automation">Automation</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="academic">Academic</button>
         </div>
 
-        <div class="row" data-aos="fade-in">
+        <div class="project-grid" id="projectGrid">
+        </div>
+        
+        <!-- Load More / Collapse Button -->
+        <div class="project-controls">
+          <button class="btn btn-outline" id="toggleProjects">Show All Projects</button>
+          <a href="#skills" class="btn btn-accent">Jump to Skills →</a>
+        </div>
+        </div>
+      </div>
+    </section>
 
-          <!-- <div class="col-lg-5 d-flex align-items-stretch"> -->
-          <div class="info">
-            <div class="address">
-              <i class="bi bi-geo-alt"></i>
-              <h4>Location:</h4>
-              <p>Dallas, TX </p>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="skill-tags">
+              <span>Python</span><span>Java</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span><span>C#</span>
             </div>
-
-            <div class="email">
-              <i class="bi bi-envelope"></i>
-              <h4>Email:</h4>
-              <p>asharma.careers@gmail.com</p>
-            </div>
-              <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.599983096!2d-96.87163689346457!3d32.82058654790756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1672716770378!5m2!1sen!2sus"
-              frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
           </div>
-          <!-- </div> -->
-
-          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div> -->
-
+          <div class="skill-group">
+            <h4>Backend</h4>
+            <div class="skill-tags">
+              <span>Django</span><span>Flask</span><span>Spring Boot</span><span>.NET Core</span><span>REST APIs</span><span>Kafka</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Data & Cloud</h4>
+            <div class="skill-tags">
+              <span>PostgreSQL</span><span>DynamoDB</span><span>MongoDB</span><span>Redis</span><span>AWS</span><span>Docker</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4>Test Automation & DevOps</h4>
+            <div class="skill-tags">
+              <span>Selenium</span><span>API Automation</span><span>PyTest</span><span>JUnit</span><span>GitHub Actions</span><span>Jenkins</span><span>CI/CD</span>
+            </div>
+          </div>
         </div>
-
+        <p class="skills-note">Microservices · Event-Driven · Software Engineering & Test Automation Expert</p>
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
+    <!-- Certifications -->
+    <section id="certifications" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Certifications & Awards</h2>
+        <div class="cert-grid">
+          <div class="cert-item">
+            <span class="cert-name">Introduction to Generative AI (Copilot)</span>
+            <span class="cert-org">Microsoft · 2026</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Introduction to Software Engineering</span>
+            <span class="cert-org">IBM · 2026</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">AWS Cloud Technical Essentials</span>
+            <span class="cert-org">Coursera · 2022</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Introduction to Git and GitHub</span>
+            <span class="cert-org">GitHub</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Automation Specialist Level 1 & 2</span>
+            <span class="cert-org">Tricentis</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">AMCAT Certified Software Engineer</span>
+            <span class="cert-org">AMCAT</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Google Cloud Fundamentals</span>
+            <span class="cert-org">Google</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Azure Fundamentals (AZ-900)</span>
+            <span class="cert-org">Microsoft</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">Tech Star Award</span>
+            <span class="cert-org">Accenture · 2019</span>
+          </div>
+          <div class="cert-item">
+            <span class="cert-name">APEX Award</span>
+            <span class="cert-org">Accenture · 2016–2018</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+    <!-- Beyond Code (Books) -->
+    <section id="beyond" class="section">
+      <div class="container">
+        <h2 class="section-title">Beyond Code</h2>
+        <p class="section-desc">Books that shape my thinking.</p>
+        <div class="books-slider">
+          <div class="book-card">
+            <img src="assets/img/testimonials/shouldIFail.png" alt="Should I Fail">
+            <h4>Should I Fail</h4>
+            <p>Scott Shepherd <em>(in progress)</em></p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/kalam.jpg" alt="Wings of Fire">
+            <h4>Wings of Fire</h4>
+            <p>Dr. Abdul Kalam & Arun Tiwari</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/elonmusk.jpg" alt="Elon Musk">
+            <h4>Elon Musk</h4>
+            <p>Ashley Vance</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/atomicHabit.jpg" alt="Atomic Habits">
+            <h4>Atomic Habits</h4>
+            <p>James Clear</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/beforeTheCoffeeGetCold.jpeg" alt="Before the Coffee Gets Cold">
+            <h4>Before the Coffee Gets Cold</h4>
+            <p>Toshikazu Kawaguchi</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/Sidhartha.jpeg" alt="Siddhartha">
+            <h4>Siddhartha</h4>
+            <p>Hermann Hesse</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/img/testimonials/immortal.jpg" alt="The Immortals of Meluha">
+            <h4>The Immortals of Meluha</h4>
+            <p>Amish Tripathi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-desc">Open to backend, platform, and automation-focused software engineering roles. Let's connect.</p>
+        <div class="contact-grid">
+          <a href="mailto:asharma.careers@gmail.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>asharma.careers@gmail.com</span>
+          </a>
+          <a href="tel:+19453722213" class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+1 (945) 372-2213</span>
+          </a>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <span>Dallas, TX</span>
+          </div>
+          <a href="https://www.linkedin.com/in/anubhavsharma26/" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">in</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/Anubhav9287" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">⌘</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <a href="assets/Anubhav_Sharma_Resume.pdf" class="btn btn-primary btn-lg" target="_blank" rel="noopener">Download Full Resume</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
     <div class="container">
-      <div class="copyright">
-
-      </div>
-      <div class="credits">
-      </div>
+      <p>© 2025 Anubhav Sharma</p>
     </div>
-  </footer><!-- End  Footer -->
+  </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <script>
+    // Project Data with Categories and Images
+    const projects = [
+      {
+        id: 2,
+        title: "Investment & SIP Calculator",
+        description: "Django backend for compound interest, returns, growth projections. Charts and financial analytics.",
+        tags: "Django · Python · Analytics",
+        image: "assets/img/project/housing_portal.png",
+        link: "https://github.com/Anubhav9287",
+        category: "backend",
+        featured: true
+      },
+      {
+        id: 3,
+        title: "Weather App",
+        description: "React-based weather application with real-time data integration.",
+        tags: "React · JavaScript",
+        image: "assets/img/project/weatherapp.png",
+        link: "https://github.com/Anubhav9287/react-weather-app",
+        category: "frontend",
+        featured: true
+      },
+      {
+        id: 4,
+        title: "Custom API Testing Framework",
+        description: "Reusable framework for REST API validation with configurable test data, assertions, and reporting.",
+        tags: "API Automation · Python/Java · REST",
+        image: "assets/img/project/aptesting.png",
+        link: "https://github.com/Anubhav9287/APITestingFramework",
+        category: "automation"
+      },
+      {
+        id: 6,
+        title: "Shark Tank India Classifier",
+        description: "Machine learning model to classify Shark Tank India pitches with feature engineering and model tuning.",
+        tags: "Python · ML · Classification",
+        image: "assets/img/project/ml.gif",
+        link: "https://github.com/Anubhav9287/SharkTankIndiaClassifer",
+        category: "ml"
+      },
+      {
+        id: 7,
+        title: "Live Server Status Dashboard",
+        description: "Monitors server health and status in real time, surfacing metrics through a simple dashboard.",
+        tags: "Monitoring · Dashboards",
+        image: "assets/img/project/live_server_project1.png",
+        link: "https://github.com/Anubhav9287/Server-Live-Status",
+        category: "backend"
+      },
+      {
+        id: 8,
+        title: "Neural Network Experiments",
+        description: "Single-layer, multi-layer, and CNN models implemented for academic exploration of deep learning.",
+        tags: "Python · Neural Networks",
+        image: "assets/img/project/neural_n.jpg",
+        link: "https://github.com/Anubhav9287/academic-projects/tree/main/NeuralNetwork",
+        category: "academic"
+      },
+      {
+        id: 9,
+        title: "Smart Housing Portal",
+        description: "Full-stack housing portal with live chat and listing management for student housing.",
+        tags: "Full Stack · Web Data Management",
+        image: "assets/img/project/housing_portal.png",
+        link: "https://github.com/Anubhav9287/academic-projects/tree/main/Web-Data-Management",
+        category: "academic"
+      },
+      {
+        id: 10,
+        title: "Sorting Algorithms Visualizer",
+        description: "Visual comparison of classic sorting algorithms to illustrate time complexity and behavior.",
+        tags: "Algorithms · Visualization",
+        image: "assets/img/project/DAA.png",
+        link: "https://github.com/Anubhav9287/academic-projects/tree/main/Design%20and%20Analysis%20of%20Algorithms",
+        category: "academic"
+      },
+      {
+        id: 11,
+        title: "Cloud MongoDB Implementation",
+        description: "MongoDB-based cloud data store with Python clients for CRUD and query operations.",
+        tags: "MongoDB · Python · Cloud",
+        image: "assets/img/project/mongodb.png",
+        link: "https://github.com/Anubhav9287/academic-projects/tree/main/DBMS-MODELS-AND-IMPLEMENTATION",
+        category: "backend"
+      },
+      {
+        id: 12,
+        title: "CSV Merger Utility",
+        description: "VBScript utility to merge multiple CSV files into a single workbook with one sheet per file.",
+        tags: "Automation · VBScript",
+        image: "assets/img/project/csv_merger.png",
+        link: "https://github.com/Anubhav9287/VBScript_CSV_Merger",
+        category: "automation"
+      },
+      {
+        id: 13,
+        title: "Car Rental Android App",
+        description: "Android app demonstrating CRUD operations for car rental management.",
+        tags: "Android · CRUD",
+        image: "assets/img/project/android.png",
+        link: "https://github.com/Anubhav9287/Andorid_App_Crud_Operations",
+        category: "frontend"
+      },
+      {
+        id: 14,
+        title: "Robot Enterprise Demo",
+        description: "Automated testing framework using Robot Framework for API, Web (Selenium & Playwright), and Desktop (VSCode) testing.",
+        tags: "Robot Framework · API Testing · Selenium · Playwright · Desktop",
+        image: "assets/img/project/robotFramework.png",
+        link: "https://github.com/Anubhav9287/robot-enterprise-demo",
+        category: "automation"
+      }
+    ];
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    // Initialize Projects on Page Load
+    let isExpanded = false;
+    const FEATURED_COUNT = 3;
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    function initProjects() {
+      renderProjects('all');
+      setupFilterButtons();
+      setupToggleButton();
+    }
 
+    function renderProjects(category) {
+      const grid = document.getElementById('projectGrid');
+      grid.innerHTML = '';
+
+      const filtered = category === 'all' ? projects : projects.filter(p => p.category === category);
+
+      filtered.forEach((project, index) => {
+        // Don't render collapsed items when not expanded
+        if (!isExpanded && index >= FEATURED_COUNT) {
+          return;
+        }
+
+        const card = document.createElement('article');
+        card.className = 'project-card';
+        
+        card.innerHTML = `
+          <div class="project-image">
+            <img src="${project.image}" alt="${project.title}">
+            <div class="project-overlay">
+              <a href="${project.link}" target="_blank" rel="noopener">View</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>${project.title}</h3>
+            <p>${project.description}</p>
+            <div class="project-tags">${project.tags}</div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      updateToggleButton(filtered.length);
+    }
+
+    function setupFilterButtons() {
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          e.target.classList.add('active');
+          isExpanded = false;
+          renderProjects(e.target.dataset.filter);
+        });
+      });
+    }
+
+    function setupToggleButton() {
+      const toggleBtn = document.getElementById('toggleProjects');
+      toggleBtn.addEventListener('click', () => {
+        isExpanded = !isExpanded;
+        const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+        renderProjects(activeFilter);
+      });
+    }
+
+    function updateToggleButton(count) {
+      const toggleBtn = document.getElementById('toggleProjects');
+      if (count <= FEATURED_COUNT) {
+        toggleBtn.style.display = 'none';
+      } else {
+        toggleBtn.style.display = 'inline-block';
+        toggleBtn.textContent = isExpanded ? 'Show Less Projects' : `Show All Projects (${count})`;
+      }
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initProjects);
+    } else {
+      initProjects();
+    }
+
+    // Nav scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('navToggle');
+    const links = document.querySelector('.nav-links');
+    toggle?.addEventListener('click', () => {
+      links.classList.toggle('open');
+      toggle.classList.toggle('active');
+    });
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+        links?.classList.remove('open');
+        toggle?.classList.remove('active');
+      });
+    });
+  </script>
 </body>
-
 </html>
